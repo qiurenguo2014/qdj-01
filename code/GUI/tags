@@ -1,0 +1,812 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASC16_getfontcount	.\asc16.c	/^unsigned int ASC16_getfontcount (void)$/;"	f	signature:(void)
+ASC16_getfontcount	.\asc16.h	/^extern unsigned int ASC16_getfontcount (void);$/;"	p	signature:(void)
+ASC24_getfontcount	.\asc24.c	/^unsigned int ASC24_getfontcount (void)$/;"	f	signature:(void)
+ASC24_getfontcount	.\asc24.h	/^extern unsigned int ASC24_getfontcount (void);$/;"	p	signature:(void)
+ASC32_getfontcount	.\asc32.c	/^unsigned int ASC32_getfontcount (void)$/;"	f	signature:(void)
+ASC32_getfontcount	.\asc32.h	/^extern unsigned int ASC32_getfontcount (void);$/;"	p	signature:(void)
+Ax	.\SPLINE.H	/^   float	Ax[NPMAX];		\/\/ ∂®“Â÷∏œÚA°¢B°¢C»˝µ„µƒ÷∏’Î$/;"	m	struct:__anon11	access:public
+Ax	.\spline.c	/^{  float  	Ax, Ay;			\/\/ ∂®“ÂA°¢B°¢Cµ„◊¯±Í±‰¡ø$/;"	m	struct:__anon10	file:	access:public
+Ay	.\SPLINE.H	/^   float	Ay[NPMAX];$/;"	m	struct:__anon11	access:public
+Ay	.\spline.c	/^{  float  	Ax, Ay;			\/\/ ∂®“ÂA°¢B°¢Cµ„◊¯±Í±‰¡ø$/;"	m	struct:__anon10	file:	access:public
+BSP_PowerDown	.\gui_keyboard.c	/^extern void BSP_PowerDown (void);$/;"	p	file:	signature:(void)
+Bx	.\SPLINE.H	/^   float	Bx[NPMAX];$/;"	m	struct:__anon11	access:public
+Bx	.\spline.c	/^   float  	Bx, By;$/;"	m	struct:__anon10	file:	access:public
+By	.\SPLINE.H	/^   float	By[NPMAX];$/;"	m	struct:__anon11	access:public
+By	.\spline.c	/^   float  	Bx, By;$/;"	m	struct:__anon10	file:	access:public
+CONVERTCOLOR_EN	.\GUI_CONFIG.H	44;"	d
+CONVERTCOLOR_H	.\ConvertColor.h	9;"	d
+CURVE	.\spline.c	/^} CURVE;  $/;"	t	typeref:struct:__anon10	file:
+CURVE_GetCount	.\spline.c	/^int  CURVE_GetCount(CURVE *cl)$/;"	f	signature:(CURVE *cl)
+CURVE_GetCurve	.\spline.c	/^void  CURVE_GetCurve(CURVE *cl, float x, float y, PointXY points[], int *PointCount)$/;"	f	signature:(CURVE *cl, float x, float y, PointXY points[], int *PointCount)
+CURVE_SetCurve	.\spline.c	/^void  CURVE_SetCurve(CURVE *cl,$/;"	f	signature:(CURVE *cl, float ax, float ay, float bx, float by, float cx, float cy)
+Cx	.\SPLINE.H	/^   float	Cx[NPMAX];$/;"	m	struct:__anon11	access:public
+Cx	.\spline.c	/^   float  	Cx, Cy;$/;"	m	struct:__anon10	file:	access:public
+Cy	.\SPLINE.H	/^   float	Cy[NPMAX];$/;"	m	struct:__anon11	access:public
+Cy	.\spline.c	/^   float  	Cx, Cy;$/;"	m	struct:__anon10	file:	access:public
+DCB2HEX_TAB	.\GUI_StockC.C	/^uint8_t const  DCB2HEX_TAB[8] = {0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01};$/;"	v
+DELAY_VK1	.\gui_keyboard.h	18;"	d
+DELAY_VK2	.\gui_keyboard.h	19;"	d
+DELAY_VK3	.\gui_keyboard.h	20;"	d
+DELAY_VK4	.\gui_keyboard.h	21;"	d
+DIV_FACTOR	.\spline.c	49;"	d	file:
+DOWNP_N	.\GUI_BASIC.C	965;"	d	file:
+DOWNP_N	.\GUI_CONFIG.H	19;"	d
+FALSE	.\macro.h	23;"	d
+FONT24x32	.\FONT24_32.C	/^const u8  FONT24x32[][96] = {$/;"	v
+FONT24x32_EN	.\GUI_CONFIG.H	38;"	d
+FONT24x32_TAB	.\FONT24_32.C	/^const  char  FONT24x32_TAB[]="0123456789.+-: "; $/;"	v
+FONT5_7_H	.\FONT5_7.H	9;"	d
+FONT5x7ASCII	.\font5_7.c	/^const u8 FONT5x7ASCII[][8] = {$/;"	v
+FONT5x7_EN	.\GUI_CONFIG.H	34;"	d
+FONT8_8_H	.\FONT24_32.H	9;"	d
+FONT8_8_H	.\FONT8_8.H	9;"	d
+FONT8x8ASCII	.\FONT8_8.C	/^const u8  FONT8x8ASCII[][8] = {$/;"	v
+FONT8x8_EN	.\GUI_CONFIG.H	36;"	d
+FONT_ASC_16	.\gui_font.h	/^	FONT_ASC_16,$/;"	e	enum:__anon3
+FONT_ASC_24	.\gui_font.h	/^	FONT_ASC_24,$/;"	e	enum:__anon3
+FONT_ASC_32	.\gui_font.h	/^	FONT_ASC_32,$/;"	e	enum:__anon3
+FONT_ASC_COUNTER	.\gui_font.h	/^	FONT_ASC_COUNTER,$/;"	e	enum:__anon3
+FONT_ASC_DEFAULT	.\gui_font.h	/^	FONT_ASC_DEFAULT =0,$/;"	e	enum:__anon3
+FONT_ASC_TYPE	.\gui_font.h	/^}FONT_ASC_TYPE;$/;"	t	typeref:enum:__anon3
+FONT_HIGHT	.\gui_font.h	24;"	d
+FONT_HZKASC_EN	.\GUI_CONFIG.H	32;"	d
+FONT_HZK_16	.\gui_font.h	/^	FONT_HZK_16,$/;"	e	enum:__anon2
+FONT_HZK_24	.\gui_font.h	/^	FONT_HZK_24,$/;"	e	enum:__anon2
+FONT_HZK_32	.\gui_font.h	/^	FONT_HZK_32,$/;"	e	enum:__anon2
+FONT_HZK_COUNTER	.\gui_font.h	/^	FONT_HZK_COUNTER,$/;"	e	enum:__anon2
+FONT_HZK_DEFAULT	.\gui_font.h	/^	FONT_HZK_DEFAULT=0,\/\/$/;"	e	enum:__anon2
+FONT_HZK_TYPE	.\gui_font.h	/^}FONT_HZK_TYPE;$/;"	t	typeref:enum:__anon2
+FONT_MACRO_H	.\FONT_MACRO.H	9;"	d
+FONT_WIDTH	.\gui_font.h	23;"	d
+Font_GetFont	.\gui_font.c	/^void Font_GetFont (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_asc16	.\gui_font.c	/^void Font_GetFont_asc16 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_asc24	.\gui_font.c	/^void Font_GetFont_asc24 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_asc32	.\gui_font.c	/^void Font_GetFont_asc32 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_hzk16	.\gui_font.c	/^void Font_GetFont_hzk16 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_hzk24	.\gui_font.c	/^void Font_GetFont_hzk24 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_GetFont_hzk32	.\gui_font.c	/^void Font_GetFont_hzk32 (const char *ptr)$/;"	f	signature:(const char *ptr)
+Font_Init	.\gui_font.c	/^void Font_Init (void)$/;"	f	signature:(void)
+Font_Init	.\gui_font.h	/^extern void Font_Init (void);$/;"	p	signature:(void)
+Font_Struct	.\gui_font.c	/^Font_StructTypedef Font_Struct;$/;"	v
+Font_StructTypedef	.\gui_font.h	/^}Font_StructTypedef;$/;"	t	typeref:struct:__anon4
+Function	.\menu.h	/^   void   (*Function)(void);	\/\/ ∂‘”¶µƒ∑˛ŒÒ≥Ã–Ú$/;"	m	struct:__anon9	access:public
+Function	.\menu.h	/^   void (*Function[SMENU_NO])(void);		\/\/ ◊”≤Àµ•∂‘”¶µƒ∑˛ŒÒ≥Ã–Ú$/;"	m	struct:__anon7	access:public
+FunctionAction	.\menu.h	/^typedef void (*FunctionAction) (void);$/;"	t
+GUI_Arc	.\GUI_BASIC.C	/^void  GUI_Arc(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)$/;"	f	signature:(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)
+GUI_Arc	.\gui_basic.h	/^extern void  GUI_Arc(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color);$/;"	p	signature:(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)
+GUI_Arc4	.\GUI_BASIC.C	/^void  GUI_Arc4(uint32_t x, uint32_t y, uint32_t r, uint8_t angle, TCOLOR color)$/;"	f	signature:(uint32_t x, uint32_t y, uint32_t r, uint8_t angle, TCOLOR color)
+GUI_Arc4	.\gui_basic.h	/^extern void  GUI_Arc4(uint32_t x, uint32_t y, uint32_t r, uint8_t angle, TCOLOR color);$/;"	p	signature:(uint32_t x, uint32_t y, uint32_t r, uint8_t angle, TCOLOR color)
+GUI_ArcX_EN	.\GUI_CONFIG.H	22;"	d
+GUI_BASIC_H	.\gui_basic.h	7;"	d
+GUI_Button49x14	.\menu.c	/^void  GUI_Button49x14(uint32_t x, uint32_t y, uint8_t *dat)$/;"	f	signature:(uint32_t x, uint32_t y, uint8_t *dat)
+GUI_Button49x14	.\menu.h	/^extern  void  GUI_Button49x14(uint32_t x, uint32_t y, uint8_t *dat);$/;"	p	signature:(uint32_t x, uint32_t y, uint8_t *dat)
+GUI_Button_Cancle	.\menu.c	/^void  GUI_Button_Cancle(uint32_t x, uint32_t y)$/;"	f	signature:(uint32_t x, uint32_t y)
+GUI_Button_Cancle	.\menu.h	/^extern  void  GUI_Button_Cancle(uint32_t x, uint32_t y);$/;"	p	signature:(uint32_t x, uint32_t y)
+GUI_Button_Cancle1	.\menu.c	/^void  GUI_Button_Cancle1(uint32_t x, uint32_t y)$/;"	f	signature:(uint32_t x, uint32_t y)
+GUI_Button_Cancle1	.\menu.h	/^extern  void  GUI_Button_Cancle1(uint32_t x, uint32_t y);$/;"	p	signature:(uint32_t x, uint32_t y)
+GUI_Button_OK	.\menu.c	/^void  GUI_Button_OK(uint32_t x, uint32_t y)$/;"	f	signature:(uint32_t x, uint32_t y)
+GUI_Button_OK	.\menu.h	/^extern  void  GUI_Button_OK(uint32_t x, uint32_t y);$/;"	p	signature:(uint32_t x, uint32_t y)
+GUI_Button_OK1	.\menu.c	/^void  GUI_Button_OK1(uint32_t x, uint32_t y)$/;"	f	signature:(uint32_t x, uint32_t y)
+GUI_Button_OK1	.\menu.h	/^extern  void  GUI_Button_OK1(uint32_t x, uint32_t y);$/;"	p	signature:(uint32_t x, uint32_t y)
+GUI_CONFIG_H	.\GUI_CONFIG.H	9;"	d
+GUI_Circle	.\GUI_BASIC.C	/^void  GUI_Circle(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)
+GUI_Circle	.\gui_basic.h	/^extern void  GUI_Circle(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)
+GUI_CircleFill	.\GUI_BASIC.C	/^void  GUI_CircleFill(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)
+GUI_CircleFill	.\gui_basic.h	/^extern void  GUI_CircleFill(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t r, TCOLOR color)
+GUI_CircleX_EN	.\GUI_CONFIG.H	13;"	d
+GUI_ClearSCR	.\LCDDRIVE.H	/^extern void GUI_ClearSCR(void);$/;"	p	signature:(void)
+GUI_ClearSCR	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_ClearSCR (void)$/;"	f	signature:(void)
+GUI_ClearSCR	.\lcddrive.c	/^void GUI_ClearSCR (void)$/;"	f	signature:(void)
+GUI_CloseBackLight	.\LCDDRIVE.H	/^extern void GUI_CloseBackLight (void);$/;"	p	signature:(void)
+GUI_CloseBackLight	.\lcddrive.c	/^void GUI_CloseBackLight (void)$/;"	f	signature:(void)
+GUI_CloseSpeak	.\LCDDRIVE.H	/^extern void GUI_CloseSpeak (void);$/;"	p	signature:(void)
+GUI_CloseSpeak	.\lcddrive.c	/^void GUI_CloseSpeak (void)$/;"	f	signature:(void)
+GUI_CmpColor	.\LCDDRIVE.H	35;"	d
+GUI_CmpPointColor	.\GUI_BASIC.C	/^int  GUI_CmpPointColor(uint32_t x, uint32_t y, TCOLOR color)$/;"	f	signature:(uint32_t x, uint32_t y, TCOLOR color)
+GUI_Color2Index_111	.\ConvertColor.c	/^uint8_t  GUI_Color2Index_111(uint32_t colorRGB) $/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_111	.\ConvertColor.h	/^extern  uint8_t  GUI_Color2Index_111(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_Color2Index_222	.\ConvertColor.c	/^uint8_t  GUI_Color2Index_222(uint32_t colorRGB)$/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_222	.\ConvertColor.h	/^extern  uint8_t  GUI_Color2Index_222(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_Color2Index_332	.\ConvertColor.c	/^uint8_t  GUI_Color2Index_332(uint32_t colorRGB) $/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_332	.\ConvertColor.h	/^extern  uint8_t  GUI_Color2Index_332(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_Color2Index_444	.\ConvertColor.c	/^uint16_t  GUI_Color2Index_444(uint32_t colorRGB) $/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_444	.\ConvertColor.h	/^extern  uint16_t  GUI_Color2Index_444(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_Color2Index_555	.\ConvertColor.c	/^uint16_t  GUI_Color2Index_555(uint32_t colorRGB) $/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_555	.\ConvertColor.h	/^extern  uint16_t  GUI_Color2Index_555(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_Color2Index_565	.\ConvertColor.c	/^uint16_t  GUI_Color2Index_565(uint32_t colorRGB) $/;"	f	signature:(uint32_t colorRGB)
+GUI_Color2Index_565	.\ConvertColor.h	/^extern  uint16_t  GUI_Color2Index_565(uint32_t colorRGB);$/;"	p	signature:(uint32_t colorRGB)
+GUI_CopyColor	.\LCDDRIVE.H	37;"	d
+GUI_Ellipse	.\GUI_BASIC.C	/^void  GUI_Ellipse(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)
+GUI_Ellipse	.\gui_basic.h	/^extern void  GUI_Ellipse(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)
+GUI_EllipseFill	.\GUI_BASIC.C	/^void  GUI_EllipseFill(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)
+GUI_EllipseFill	.\gui_basic.h	/^extern void  GUI_EllipseFill(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t x1, uint32_t y0, uint32_t y1, TCOLOR color)
+GUI_EllipseX_EN	.\GUI_CONFIG.H	15;"	d
+GUI_ExchangeColor	.\GUI_STOCKC.H	/^extern  void  GUI_ExchangeColor(void);$/;"	p	signature:(void)
+GUI_ExchangeColor	.\GUI_StockC.C	/^void  GUI_ExchangeColor(void)$/;"	f	signature:(void)
+GUI_FillSCR	.\LCDDRIVE.H	/^extern void GUI_FillSCR(TCOLOR dat);$/;"	p	signature:(TCOLOR dat)
+GUI_FillSCR	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_FillSCR (TCOLOR dat)$/;"	f	signature:(TCOLOR dat)
+GUI_FillSCR	.\lcddrive.c	/^void GUI_FillSCR (TCOLOR dat)$/;"	f	signature:(TCOLOR dat)
+GUI_FloodFill	.\GUI_BASIC.C	/^void  GUI_FloodFill(uint32_t x0, uint32_t y0, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, TCOLOR color)
+GUI_FloodFill	.\gui_basic.h	/^extern void  GUI_FloodFill(uint32_t x0, uint32_t y0, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, TCOLOR color)
+GUI_FloodFill_EN	.\GUI_CONFIG.H	17;"	d
+GUI_GetBackColor	.\GUI_STOCKC.H	/^extern  void  GUI_GetBackColor(TCOLOR  *bakc);$/;"	p	signature:(TCOLOR *bakc)
+GUI_GetBackColor	.\GUI_StockC.C	/^void  GUI_GetBackColor(TCOLOR  *bakc)$/;"	f	signature:(TCOLOR *bakc)
+GUI_GetDispColor	.\GUI_STOCKC.H	/^extern  void  GUI_GetDispColor(TCOLOR  *bakc);$/;"	p	signature:(TCOLOR *bakc)
+GUI_GetDispColor	.\GUI_StockC.C	/^void  GUI_GetDispColor(TCOLOR  *bakc)$/;"	f	signature:(TCOLOR *bakc)
+GUI_HLine	.\LCDDRIVE.H	/^extern void GUI_HLine(int16_t x0, int16_t y0, int16_t x1, TCOLOR color);$/;"	p	signature:(int16_t x0, int16_t y0, int16_t x1, TCOLOR color)
+GUI_HLine	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_HLine (s16 x0, s16 y0, s16 x1, TCOLOR color)$/;"	f	signature:(s16 x0, s16 y0, s16 x1, TCOLOR color)
+GUI_HLine	.\lcddrive.c	/^void GUI_HLine (int16_t x0, int16_t y0, int16_t x1, TCOLOR color)$/;"	f	signature:(int16_t x0, int16_t y0, int16_t x1, TCOLOR color)
+GUI_Index2Color_111	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_111(uint8_t Index) $/;"	f	signature:(uint8_t Index)
+GUI_Index2Color_111	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_111(uint8_t Index);$/;"	p	signature:(uint8_t Index)
+GUI_Index2Color_222	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_222(uint8_t index) $/;"	f	signature:(uint8_t index)
+GUI_Index2Color_222	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_222(uint8_t index);$/;"	p	signature:(uint8_t index)
+GUI_Index2Color_233	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_233(uint8_t index)$/;"	f	signature:(uint8_t index)
+GUI_Index2Color_233	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_233(uint8_t index);$/;"	p	signature:(uint8_t index)
+GUI_Index2Color_444	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_444(uint16_t index) $/;"	f	signature:(uint16_t index)
+GUI_Index2Color_444	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_444(uint16_t index);$/;"	p	signature:(uint16_t index)
+GUI_Index2Color_555	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_555(uint16_t index) $/;"	f	signature:(uint16_t index)
+GUI_Index2Color_555	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_555(uint16_t index);$/;"	p	signature:(uint16_t index)
+GUI_Index2Color_565	.\ConvertColor.c	/^uint32_t  GUI_Index2Color_565(uint16_t index) $/;"	f	signature:(uint16_t index)
+GUI_Index2Color_565	.\ConvertColor.h	/^extern  uint32_t  GUI_Index2Color_565(uint16_t index);$/;"	p	signature:(uint16_t index)
+GUI_Initialize	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_Initialize (void)$/;"	f	signature:(void)
+GUI_KEYBOARD_EN	.\GUI_CONFIG.H	46;"	d
+GUI_LCM_XMAX	.\LCDDRIVE.H	15;"	d
+GUI_LCM_YMAX	.\LCDDRIVE.H	16;"	d
+GUI_Line	.\GUI_BASIC.C	/^void  GUI_Line(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_Line	.\gui_basic.h	/^extern void  GUI_Line(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_LineS	.\GUI_BASIC.C	/^void  GUI_LineS(uint32_t const *points, uint8_t no, TCOLOR color)$/;"	f	signature:(uint32_t const *points, uint8_t no, TCOLOR color)
+GUI_LineS	.\gui_basic.h	/^extern void  GUI_LineS(uint32_t const *points, uint8_t no, TCOLOR color);$/;"	p	signature:(uint32_t const *points, uint8_t no, TCOLOR color)
+GUI_LineWith	.\GUI_BASIC.C	/^void  GUI_LineWith(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, uint8_t with, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, uint8_t with, TCOLOR color)
+GUI_LineWith	.\gui_basic.h	/^extern void  GUI_LineWith(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, uint8_t with, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, uint8_t with, TCOLOR color)
+GUI_LineWith_EN	.\GUI_CONFIG.H	11;"	d
+GUI_LoadLine	.\loadbit.c	/^uint8_t  GUI_LoadLine(uint32_t x, uint32_t y, uint8_t *dat, uint32_t no)$/;"	f	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint32_t no)
+GUI_LoadPic	.\Loadbit.h	/^extern  void  GUI_LoadPic(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno);$/;"	p	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)
+GUI_LoadPic	.\loadbit.c	/^void  GUI_LoadPic(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)$/;"	f	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)
+GUI_LoadPic1	.\Loadbit.h	/^extern  void  GUI_LoadPic1(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno);$/;"	p	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)
+GUI_LoadPic1	.\loadbit.c	/^void  GUI_LoadPic1(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)$/;"	f	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint32_t hno, uint32_t lno)
+GUI_LoadPic_EN	.\GUI_CONFIG.H	42;"	d
+GUI_MMenuDraw	.\menu.c	/^uint8_t  GUI_MMenuDraw(MMENU *men)$/;"	f	signature:(MMENU *men)
+GUI_MMenuDraw	.\menu.h	/^extern  uint8_t  GUI_MMenuDraw(MMENU *men);$/;"	p	signature:(MMENU *men)
+GUI_MMenuNSelect	.\menu.c	/^void  GUI_MMenuNSelect(MMENU *men, uint8_t no)$/;"	f	signature:(MMENU *men, uint8_t no)
+GUI_MMenuNSelect	.\menu.h	/^extern  void  GUI_MMenuNSelect(MMENU *men, uint8_t no);$/;"	p	signature:(MMENU *men, uint8_t no)
+GUI_MMenuSelect	.\menu.c	/^void  GUI_MMenuSelect(MMENU *men, uint8_t no)$/;"	f	signature:(MMENU *men, uint8_t no)
+GUI_MMenuSelect	.\menu.h	/^extern  void  GUI_MMenuSelect(MMENU *men, uint8_t no);$/;"	p	signature:(MMENU *men, uint8_t no)
+GUI_MenuDown_EN	.\GUI_CONFIG.H	30;"	d
+GUI_MenuDraw	.\menu.c	/^uint8_t GUI_MenuDraw (MENU *menu)$/;"	f	signature:(MENU *menu)
+GUI_MenuIcoDraw	.\menu.c	/^uint8_t  GUI_MenuIcoDraw(MENUICO *ico)$/;"	f	signature:(MENUICO *ico)
+GUI_MenuIcoDraw	.\menu.h	/^extern  uint8_t  GUI_MenuIcoDraw(MENUICO *ico);$/;"	p	signature:(MENUICO *ico)
+GUI_MenuIco_EN	.\GUI_CONFIG.H	28;"	d
+GUI_OpenBackLight	.\LCDDRIVE.H	/^extern void GUI_OpenBackLight (void);$/;"	p	signature:(void)
+GUI_OpenBackLight	.\lcddrive.c	/^void GUI_OpenBackLight (void)$/;"	f	signature:(void)
+GUI_OpenSpeak	.\LCDDRIVE.H	/^extern void GUI_OpenSpeak (void);$/;"	p	signature:(void)
+GUI_OpenSpeak	.\lcddrive.c	/^void GUI_OpenSpeak (void)$/;"	f	signature:(void)
+GUI_OpenWidget	.\widget.c	/^uint8_t GUI_OpenWidget (WIDGET *p)$/;"	f	signature:(WIDGET *p)
+GUI_Pieslice	.\GUI_BASIC.C	/^void  GUI_Pieslice(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)$/;"	f	signature:(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)
+GUI_Pieslice	.\gui_basic.h	/^extern void  GUI_Pieslice(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color);$/;"	p	signature:(uint32_t x, uint32_t y, uint32_t r, uint32_t stangle, uint32_t endangle, TCOLOR color)
+GUI_Pieslice_EN	.\GUI_CONFIG.H	24;"	d
+GUI_Point	.\LCDDRIVE.H	/^extern uint8_t GUI_Point(int16_t x, int16_t y, TCOLOR color);$/;"	p	signature:(int16_t x, int16_t y, TCOLOR color)
+GUI_Point	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^u8 GUI_Point (s16 x, s16 y, TCOLOR color)$/;"	f	signature:(s16 x, s16 y, TCOLOR color)
+GUI_Point	.\lcddrive.c	/^uint8_t GUI_Point (int16_t x, int16_t y, TCOLOR color)$/;"	f	signature:(int16_t x, int16_t y, TCOLOR color)
+GUI_PutChar	.\gui_font.c	/^void GUI_PutChar (const int16_t x, const int16_t y,$/;"	f	signature:(const int16_t x, const int16_t y, const char *ptr)
+GUI_PutChar	.\gui_font.h	/^extern void GUI_PutChar (const int16_t x, const int16_t y, $/;"	p	signature:(const int16_t x, const int16_t y, const char *ptr)
+GUI_PutChar24_32	.\FONT24_32.C	/^u8  GUI_PutChar24_32(u32 x, u32 y, u8 ch)$/;"	f	signature:(u32 x, u32 y, u8 ch)
+GUI_PutChar24_32	.\FONT24_32.H	/^extern  uint8  GUI_PutChar24_32(uint32 x, uint32 y, uint8 ch);$/;"	p	signature:(uint32 x, uint32 y, uint8 ch)
+GUI_PutHZ	.\Loadbit.h	/^extern  void  GUI_PutHZ(uint32_t x, uint32_t y, uint8_t *dat, uint8_t hno, uint8_t lno);$/;"	p	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint8_t hno, uint8_t lno)
+GUI_PutHZ	.\loadbit.c	/^void  GUI_PutHZ(uint32_t x, uint32_t y, uint8_t *dat, uint8_t hno, uint8_t lno)$/;"	f	signature:(uint32_t x, uint32_t y, uint8_t *dat, uint8_t hno, uint8_t lno)
+GUI_PutHZ_EN	.\GUI_CONFIG.H	40;"	d
+GUI_PutString	.\gui_font.c	/^void GUI_PutString (const int16_t x, const int16_t y, $/;"	f	signature:(const int16_t x, const int16_t y, const char *ptr)
+GUI_PutString	.\gui_font.h	/^extern void GUI_PutString (const int16_t x, const int16_t y, $/;"	p	signature:(const int16_t x, const int16_t y, const char *ptr)
+GUI_RLine	.\LCDDRIVE.H	/^extern void GUI_RLine(int16_t x0, int16_t y0, int16_t y1, TCOLOR color);$/;"	p	signature:(int16_t x0, int16_t y0, int16_t y1, TCOLOR color)
+GUI_RLine	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_RLine (s16 x0, s16 y0, s16 y1, TCOLOR color)$/;"	f	signature:(s16 x0, s16 y0, s16 y1, TCOLOR color)
+GUI_RLine	.\lcddrive.c	/^void GUI_RLine (int16_t x0, int16_t y0, int16_t y1, TCOLOR color)$/;"	f	signature:(int16_t x0, int16_t y0, int16_t y1, TCOLOR color)
+GUI_ReadLeftPoint	.\GUI_BASIC.C	/^uint32_t  GUI_ReadLeftPoint(uint32_t x0, uint32_t y0, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, TCOLOR color)
+GUI_ReadPoint	.\LCDDRIVE.H	/^extern int GUI_ReadPoint(int16_t x, int16_t y, TCOLOR *ret);$/;"	p	signature:(int16_t x, int16_t y, TCOLOR *ret)
+GUI_ReadPoint	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^int GUI_ReadPoint (s16 x, s16 y, TCOLOR *ret)$/;"	f	signature:(s16 x, s16 y, TCOLOR *ret)
+GUI_ReadPoint	.\lcddrive.c	/^int GUI_ReadPoint (int16_t x, int16_t y, TCOLOR *ret)$/;"	f	signature:(int16_t x, int16_t y, TCOLOR *ret)
+GUI_ReadRightPoint	.\GUI_BASIC.C	/^uint32_t  GUI_ReadRightPoint(uint32_t x0, uint32_t y0, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, TCOLOR color)
+GUI_Rectangle	.\GUI_BASIC.C	/^void  GUI_Rectangle(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_Rectangle	.\gui_basic.h	/^extern  void  GUI_Rectangle(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_RectangleFill	.\GUI_BASIC.C	/^void  GUI_RectangleFill(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_RectangleFill	.\gui_basic.h	/^extern void  GUI_RectangleFill(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, TCOLOR color)
+GUI_SMenuDraw	.\menu.c	/^uint8_t  GUI_SMenuDraw(SMENU *men)$/;"	f	signature:(SMENU *men)
+GUI_SMenuDraw	.\menu.h	/^extern  uint8_t  GUI_SMenuDraw(SMENU *men);$/;"	p	signature:(SMENU *men)
+GUI_SMenuHide	.\menu.c	/^uint8_t  GUI_SMenuHide(SMENU *men)$/;"	f	signature:(SMENU *men)
+GUI_SMenuHide	.\menu.h	/^extern  uint8_t  GUI_SMenuHide(SMENU *men);$/;"	p	signature:(SMENU *men)
+GUI_SMenuSelect	.\menu.c	/^void  GUI_SMenuSelect(SMENU *men, uint8_t old_no, uint8_t new_no)$/;"	f	signature:(SMENU *men, uint8_t old_no, uint8_t new_no)
+GUI_SMenuSelect	.\menu.h	/^extern  void  GUI_SMenuSelect(SMENU *men, uint8_t old_no, uint8_t new_no);$/;"	p	signature:(SMENU *men, uint8_t old_no, uint8_t new_no)
+GUI_STOCKC_H	.\GUI_STOCKC.H	10;"	d
+GUI_SetAscType	.\gui_font.c	/^void GUI_SetAscType (FONT_ASC_TYPE asctype)$/;"	f	signature:(FONT_ASC_TYPE asctype)
+GUI_SetAscType	.\gui_font.h	/^extern void GUI_SetAscType (FONT_ASC_TYPE asctype);$/;"	p	signature:(FONT_ASC_TYPE asctype)
+GUI_SetBackLightLevel	.\LCDDRIVE.H	/^extern void GUI_SetBackLightLevel (uint8_t level);$/;"	p	signature:(uint8_t level)
+GUI_SetBackLightLevel	.\lcddrive.c	/^void GUI_SetBackLightLevel (uint8_t level)$/;"	f	signature:(uint8_t level)
+GUI_SetColor	.\GUI_STOCKC.H	/^extern  void  GUI_SetColor(TCOLOR color1, TCOLOR color2);$/;"	p	signature:(TCOLOR color1, TCOLOR color2)
+GUI_SetColor	.\GUI_StockC.C	/^void  GUI_SetColor(TCOLOR color1, TCOLOR color2)$/;"	f	signature:(TCOLOR color1, TCOLOR color2)
+GUI_SetHzkType	.\gui_font.c	/^void GUI_SetHzkType (FONT_HZK_TYPE hzktype)$/;"	f	signature:(FONT_HZK_TYPE hzktype)
+GUI_SetHzkType	.\gui_font.h	/^extern void GUI_SetHzkType (FONT_HZK_TYPE hzktype);$/;"	p	signature:(FONT_HZK_TYPE hzktype)
+GUI_Spline	.\SPLINE.H	/^extern  void  GUI_Spline(PointXY points[], int no, TCOLOR color);$/;"	p	signature:(PointXY points[], int no, TCOLOR color)
+GUI_Spline	.\spline.c	/^void  GUI_Spline(PointXY points[], int no, TCOLOR color)$/;"	f	signature:(PointXY points[], int no, TCOLOR color)
+GUI_Square	.\GUI_BASIC.C	/^void  GUI_Square(uint32_t x0, uint32_t y0, uint32_t  with, TCOLOR  color)$/;"	f	signature:(uint32_t x0, uint32_t y0, uint32_t with, TCOLOR color)
+GUI_Square	.\gui_basic.h	/^extern void  GUI_Square(uint32_t x0, uint32_t y0, uint32_t  with, TCOLOR  color);$/;"	p	signature:(uint32_t x0, uint32_t y0, uint32_t with, TCOLOR color)
+GUI_WIDGET_EN	.\GUI_CONFIG.H	48;"	d
+GUI_WINDOW_EN	.\GUI_CONFIG.H	26;"	d
+GUI_WindowDraw	.\windows.c	/^uint8_t GUI_WindowDraw (WINDOW *win)$/;"	f	signature:(WINDOW *win)
+GUI_WindowsClr	.\WINDOWS.H	/^extern  void  GUI_WindowsClr(WINDOWS *win);$/;"	p	signature:(WINDOWS *win)
+GUI_WindowsClr	.\windows.c	/^void  GUI_WindowsClr(WINDOWS *win)$/;"	f	signature:(WINDOWS *win)
+GUI_WindowsDraw	.\WINDOWS.H	/^extern  uint8_t  GUI_WindowsDraw(WINDOWS *win);$/;"	p	signature:(WINDOWS *win)
+GUI_WindowsDraw	.\windows.c	/^uint8_t  GUI_WindowsDraw(WINDOWS *win)$/;"	f	signature:(WINDOWS *win)
+GUI_WindowsHide	.\WINDOWS.H	/^extern uint8_t  GUI_WindowsHide(WINDOWS *win);$/;"	p	signature:(WINDOWS *win)
+GUI_WindowsHide	.\windows.c	/^uint8_t  GUI_WindowsHide(WINDOWS *win)$/;"	f	signature:(WINDOWS *win)
+GUI_closeBackLight	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_closeBackLight (void)$/;"	f	signature:(void)
+GUI_closeSpeak	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_closeSpeak (void)$/;"	f	signature:(void)
+GUI_openBackLight	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_openBackLight (void)$/;"	f	signature:(void)
+GUI_openSpeak	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_openSpeak (void)$/;"	f	signature:(void)
+GUI_setBackLightLevel	.\lcddrive(PC--20050318PMDµƒ≥ÂÕª∞Ê±æ).c	/^void GUI_setBackLightLevel (u8 level)$/;"	f	signature:(u8 level)
+HZK160XA1A1	.\hzk16.h	13;"	d
+HZK160XB2E2	.\hzk16.h	1676;"	d
+HZK160XB5D8	.\hzk16.h	1948;"	d
+HZK160XB5E7	.\hzk16.h	1963;"	d
+HZK160XB6AF	.\hzk16.h	2001;"	d
+HZK160XB6D4	.\hzk16.h	2038;"	d
+HZK160XB8A3	.\hzk16.h	2177;"	d
+HZK160XB8BA	.\hzk16.h	2200;"	d
+HZK160XBFB9	.\hzk16.h	2857;"	d
+HZK160XC1BF	.\hzk16.h	3051;"	d
+HZK160XC6D5	.\hzk16.h	3543;"	d
+HZK160XC6F4	.\hzk16.h	3574;"	d
+HZK160XC8DD	.\hzk16.h	3739;"	d
+HZK160XCDA3	.\hzk16.h	4151;"	d
+HZK160XD5FD	.\hzk16.h	4993;"	d
+HZK160XD6B9	.\hzk16.h	5019;"	d
+HZK160XD7E8	.\hzk16.h	5160;"	d
+HZK16_getfontcount	.\hzk16.c	/^unsigned int HZK16_getfontcount (void)$/;"	f	signature:(void)
+HZK16_getfontcount	.\hzk16.h	/^extern unsigned int HZK16_getfontcount (void);$/;"	p	signature:(void)
+HZK240XA1A1	.\hzk24.h	13;"	d
+HZK240XB2CB	.\hzk24.h	1653;"	d
+HZK240XB2E2	.\hzk24.h	1676;"	d
+HZK240XB5A5	.\hzk24.h	1897;"	d
+HZK240XB5D8	.\hzk24.h	1948;"	d
+HZK240XB5E7	.\hzk24.h	1963;"	d
+HZK240XB6AF	.\hzk24.h	2001;"	d
+HZK240XB6D4	.\hzk24.h	2038;"	d
+HZK240XB8BA	.\hzk24.h	2200;"	d
+HZK240XBDE7	.\hzk24.h	2715;"	d
+HZK240XBFB9	.\hzk24.h	2857;"	d
+HZK240XC1BF	.\hzk24.h	3051;"	d
+HZK240XC3E6	.\hzk24.h	3278;"	d
+HZK240XC6F4	.\hzk24.h	3574;"	d
+HZK240XC8DD	.\hzk24.h	3739;"	d
+HZK240XCDA3	.\hzk24.h	4151;"	d
+HZK240XD0DE	.\hzk24.h	4492;"	d
+HZK240XD5FD	.\hzk24.h	4993;"	d
+HZK240XD6B9	.\hzk24.h	5019;"	d
+HZK240XD7E8	.\hzk24.h	5160;"	d
+HZK24_getfontcount	.\hzk24.c	/^unsigned int HZK24_getfontcount (void)$/;"	f	signature:(void)
+HZK24_getfontcount	.\hzk24.h	/^extern unsigned int HZK24_getfontcount (void);$/;"	p	signature:(void)
+HZK320XA1A1	.\hzk32.h	14;"	d
+HZK320XB5D8	.\hzk32.h	1949;"	d
+HZK320XB6D4	.\hzk32.h	2039;"	d
+HZK32_getfontcount	.\hzk32.c	/^unsigned int HZK32_getfontcount (void)$/;"	f	signature:(void)
+HZK32_getfontcount	.\hzk32.h	/^extern unsigned int HZK32_getfontcount (void);$/;"	p	signature:(void)
+KBD_BACK	.\gui_kbd.h	/^	KBD_UP,KBD_DOWN,KBD_ENTER,KBD_BACK,KBD_POWER$/;"	e	enum:__anon5
+KBD_BACK_BIT	.\gui_kbd.h	33;"	d
+KBD_DOWN	.\gui_kbd.h	/^	KBD_UP,KBD_DOWN,KBD_ENTER,KBD_BACK,KBD_POWER$/;"	e	enum:__anon5
+KBD_DOWN_BIT	.\gui_kbd.h	31;"	d
+KBD_ENTER	.\gui_kbd.h	/^	KBD_UP,KBD_DOWN,KBD_ENTER,KBD_BACK,KBD_POWER$/;"	e	enum:__anon5
+KBD_ENTER_BIT	.\gui_kbd.h	32;"	d
+KBD_Get_Keymsg	.\gui_keyboard.c	/^uint8_t KBD_Get_Keymsg (void)$/;"	f	signature:(void)
+KBD_Get_Keymsg	.\gui_keyboard.h	/^extern unsigned char KBD_Get_Keymsg (void);$/;"	p	signature:(void)
+KBD_Init	.\gui_kbd.c	/^void KBD_Init (void)$/;"	f	signature:(void)
+KBD_Init	.\gui_kbd.h	/^extern void KBD_Init (void);$/;"	p	signature:(void)
+KBD_Listen_Key	.\gui_keyboard.c	/^void KBD_Listen_Key (void)$/;"	f	signature:(void)
+KBD_Listen_Key	.\gui_keyboard.h	/^extern void KBD_Listen_Key (void);$/;"	p	signature:(void)
+KBD_MSG_DOWN	.\gui_kbd.h	28;"	d
+KBD_MSG_ENTER	.\gui_kbd.h	29;"	d
+KBD_MSG_UP	.\gui_kbd.h	27;"	d
+KBD_POWER	.\gui_kbd.h	/^	KBD_UP,KBD_DOWN,KBD_ENTER,KBD_BACK,KBD_POWER$/;"	e	enum:__anon5
+KBD_POWER_BIT	.\gui_kbd.h	34;"	d
+KBD_ReadKey_u	.\gui_kbd.c	/^void KBD_ReadKey_u (void)$/;"	f	signature:(void)
+KBD_ReadKey_u	.\gui_kbd.h	/^extern void KBD_ReadKey_u (void);$/;"	p	signature:(void)
+KBD_STATUS	.\gui_kbd.h	/^}KBD_STATUS;$/;"	t	typeref:enum:__anon5
+KBD_Send_Keymsg	.\gui_keyboard.c	/^void KBD_Send_Keymsg (uint8_t VK_MSG)$/;"	f	signature:(uint8_t VK_MSG)
+KBD_Struct	.\gui_kbd.c	/^KBD_StructType KBD_Struct;$/;"	v
+KBD_StructType	.\gui_kbd.h	/^}KBD_StructType;$/;"	t	typeref:struct:__anon6
+KBD_UP	.\gui_kbd.h	/^	KBD_UP,KBD_DOWN,KBD_ENTER,KBD_BACK,KBD_POWER$/;"	e	enum:__anon5
+KBD_UP_BIT	.\gui_kbd.h	30;"	d
+KEY_COUNTER	.\gui_kbd.h	16;"	d
+LOADBIT_H	.\Loadbit.h	9;"	d
+MENU	.\menu.h	/^}MENU;$/;"	t	typeref:struct:MENU_STRUCT
+MENUICO	.\menu.h	/^} MENUICO;$/;"	t	typeref:struct:__anon9
+MENU_H	.\menu.h	9;"	d
+MENU_STRUCT	.\menu.h	/^typedef struct MENU_STRUCT{$/;"	s
+MENU_STRUCT::asctype	.\menu.h	/^	FONT_ASC_TYPE asctype;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::back	.\menu.h	/^	TCOLOR back;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::disp	.\menu.h	/^	TCOLOR disp;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::hzktype	.\menu.h	/^	FONT_HZK_TYPE hzktype;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::next	.\menu.h	/^	const struct MENU_STRUCT *next;\/\/÷∏œÚœ¬“ª∏ˆ≤Àµ•£¨±ÿ–Î «“ª∏ˆ—≠ª∑$/;"	m	struct:MENU_STRUCT	typeref:struct:MENU_STRUCT::MENU_STRUCT	access:public
+MENU_STRUCT::service	.\menu.h	/^	FunctionAction service;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::stat	.\menu.h	/^	uint32_t stat;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::title	.\menu.h	/^	char *title;$/;"	m	struct:MENU_STRUCT	access:public
+MENU_STRUCT::title_xy	.\menu.h	/^	PointXY title_xy;$/;"	m	struct:MENU_STRUCT	access:public
+MMENU	.\menu.h	/^} MMENU;$/;"	t	typeref:struct:__anon8
+MMENU_NO	.\menu.h	15;"	d
+MMENU_WIDTH	.\menu.h	14;"	d
+Mat	.\SPLINE.H	/^   float	Mat[3][NPMAX];$/;"	m	struct:__anon11	access:public
+NPMAX	.\SPLINE.H	13;"	d
+NULL	.\macro.h	27;"	d
+Ndiv	.\spline.c	/^   int    	Ndiv;			\/\/ ∂®“Â«˙œﬂ∆Ωª¨≤Œ ˝±‰¡ø     $/;"	m	struct:__anon10	file:	access:public
+Np	.\SPLINE.H	/^   int  	Np; 			\/\/ «˙œﬂµ„∏ˆ ˝$/;"	m	struct:__anon11	access:public
+POWER_DOWN_TIME	.\gui_keyboard.c	75;"	d	file:
+PointXY	.\gui_basic.h	/^         PointXY;$/;"	t	typeref:struct:__anon1
+Px	.\SPLINE.H	/^{  float	Px[NPMAX];			$/;"	m	struct:__anon11	access:public
+Py	.\SPLINE.H	/^   float	Py[NPMAX];$/;"	m	struct:__anon11	access:public
+SMENU	.\menu.h	/^} SMENU;$/;"	t	typeref:struct:__anon7
+SMENU_NO	.\menu.h	18;"	d
+SMENU_WIDTH	.\menu.h	17;"	d
+SPLINE	.\SPLINE.H	/^} SPLINE; $/;"	t	typeref:struct:__anon11
+SPLINE_Generate	.\SPLINE.H	/^extern  void  SPLINE_Generate(SPLINE *sl);$/;"	p	signature:(SPLINE *sl)
+SPLINE_Generate	.\spline.c	/^void  SPLINE_Generate(SPLINE *sl) $/;"	f	signature:(SPLINE *sl)
+SPLINE_GetCurve	.\SPLINE.H	/^extern  void  SPLINE_GetCurve(SPLINE *sl, PointXY points[], int *PointCount);$/;"	p	signature:(SPLINE *sl, PointXY points[], int *PointCount)
+SPLINE_GetCurve	.\spline.c	/^void  SPLINE_GetCurve(SPLINE *sl, PointXY points[], int *PointCount)$/;"	f	signature:(SPLINE *sl, PointXY points[], int *PointCount)
+SPLINE_GetCurveCount	.\SPLINE.H	/^extern  int  SPLINE_GetCurveCount(SPLINE *sl);$/;"	p	signature:(SPLINE *sl)
+SPLINE_GetCurveCount	.\spline.c	/^int  SPLINE_GetCurveCount(SPLINE *sl)$/;"	f	signature:(SPLINE *sl)
+SPLINE_H	.\SPLINE.H	8;"	d
+SPLINE_MatrixSolve	.\spline.c	/^void  SPLINE_MatrixSolve(SPLINE *sl, float *Bb)$/;"	f	signature:(SPLINE *sl, float *Bb)
+SPLINE_SetSpline	.\SPLINE.H	/^extern  void  SPLINE_SetSpline(SPLINE *sl, PointXY pt[], int np);$/;"	p	signature:(SPLINE *sl, PointXY pt[], int np)
+SPLINE_SetSpline	.\spline.c	/^void  SPLINE_SetSpline(SPLINE *sl, PointXY pt[], int np)$/;"	f	signature:(SPLINE *sl, PointXY pt[], int np)
+TCOLOR	.\LCDDRIVE.H	14;"	d
+TRUE	.\macro.h	19;"	d
+UPP_N	.\GUI_BASIC.C	968;"	d	file:
+UPP_N	.\GUI_CONFIG.H	20;"	d
+VK_BACK	.\gui_keyboard.h	29;"	d
+VK_BACK_MASK	.\gui_keyboard.c	28;"	d	file:
+VK_CANCEL	.\gui_keyboard.h	27;"	d
+VK_CAPITAL	.\gui_keyboard.h	37;"	d
+VK_CLEAR	.\gui_keyboard.h	31;"	d
+VK_CONTROL	.\gui_keyboard.h	34;"	d
+VK_DELETE	.\gui_keyboard.h	52;"	d
+VK_DOWN	.\gui_keyboard.h	47;"	d
+VK_DOWN_MASK	.\gui_keyboard.c	27;"	d	file:
+VK_END	.\gui_keyboard.h	42;"	d
+VK_ENTER	.\gui_keyboard.h	32;"	d
+VK_ENTER_MASK	.\gui_keyboard.c	29;"	d	file:
+VK_ESCAPE	.\gui_keyboard.h	38;"	d
+VK_EXECUTE	.\gui_keyboard.h	49;"	d
+VK_HELP	.\gui_keyboard.h	53;"	d
+VK_HOME	.\gui_keyboard.h	43;"	d
+VK_INSERT	.\gui_keyboard.h	51;"	d
+VK_LBUTTON	.\gui_keyboard.h	25;"	d
+VK_LEFT	.\gui_keyboard.h	44;"	d
+VK_LOOSE	.\gui_keyboard.h	24;"	d
+VK_MBUTTON	.\gui_keyboard.h	28;"	d
+VK_MENU	.\gui_keyboard.h	35;"	d
+VK_NEXT	.\gui_keyboard.h	41;"	d
+VK_NOKEY	.\gui_keyboard.h	23;"	d
+VK_PAUSE	.\gui_keyboard.h	36;"	d
+VK_PRIOR	.\gui_keyboard.h	40;"	d
+VK_RBUTTON	.\gui_keyboard.h	26;"	d
+VK_RIGHT	.\gui_keyboard.h	46;"	d
+VK_SELECT	.\gui_keyboard.h	48;"	d
+VK_SHIFT	.\gui_keyboard.h	33;"	d
+VK_SNAPSHOT	.\gui_keyboard.h	50;"	d
+VK_SPACE	.\gui_keyboard.h	39;"	d
+VK_SYSSET	.\gui_keyboard.h	54;"	d
+VK_SYSSET_MASK	.\gui_keyboard.c	30;"	d	file:
+VK_TAB	.\gui_keyboard.h	30;"	d
+VK_UP	.\gui_keyboard.h	45;"	d
+WIDGET	.\widget.h	/^}WIDGET;$/;"	t	typeref:struct:WIDGET_STRUCT
+WIDGETMNG_STRUCT	.\widget.h	/^typedef struct WIDGETMNG_STRUCT{$/;"	s
+WIDGETMNG_STRUCT::cur_menu	.\widget.h	/^	MENU *cur_menu;		\/\/ÊåáÂêëÂΩìÂâçËèúÂçï$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+WIDGETMNG_STRUCT::head	.\widget.h	/^	WIDGET *head;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+WIDGETMNG_STRUCT::next	.\widget.h	/^	WIDGET *next;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+WIDGETMNG_STRUCT::widget	.\widget.h	/^	WIDGET *widget;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+WIDGET_MAX	.\widget.h	30;"	d
+WIDGET_MNG	.\widget.h	/^}WIDGET_MNG;$/;"	t	typeref:struct:WIDGETMNG_STRUCT
+WIDGET_STRUCT	.\widget.h	/^typedef struct WIDGET_STRUCT{$/;"	s
+WIDGET_STRUCT::menu	.\widget.h	/^	const MENU *menu;\/\/Á™óÂè£ÁöÑËèúÂçï$/;"	m	struct:WIDGET_STRUCT	access:public
+WIDGET_STRUCT::win	.\widget.h	/^	WINDOW win;\/\/Á™óÂè£Â±ûÊÄß,Â§ßÂ∞è,‰ΩçÁΩÆ$/;"	m	struct:WIDGET_STRUCT	access:public
+WINDOW	.\WINDOWS.H	/^}WINDOW;$/;"	t	typeref:struct:__anon13
+WINDOWS	.\WINDOWS.H	/^} WINDOWS;$/;"	t	typeref:struct:__anon12
+WINDOWS_H	.\WINDOWS.H	10;"	d
+XXXXXXXX	.\FONT_MACRO.H	268;"	d
+XXXXXXX_	.\FONT_MACRO.H	267;"	d
+XXXXXX_X	.\FONT_MACRO.H	266;"	d
+XXXXXX__	.\FONT_MACRO.H	265;"	d
+XXXXX_XX	.\FONT_MACRO.H	264;"	d
+XXXXX_X_	.\FONT_MACRO.H	263;"	d
+XXXXX__X	.\FONT_MACRO.H	262;"	d
+XXXXX___	.\FONT_MACRO.H	261;"	d
+XXXX_XXX	.\FONT_MACRO.H	260;"	d
+XXXX_XX_	.\FONT_MACRO.H	259;"	d
+XXXX_X_X	.\FONT_MACRO.H	258;"	d
+XXXX_X__	.\FONT_MACRO.H	257;"	d
+XXXX__XX	.\FONT_MACRO.H	256;"	d
+XXXX__X_	.\FONT_MACRO.H	255;"	d
+XXXX___X	.\FONT_MACRO.H	254;"	d
+XXXX____	.\FONT_MACRO.H	253;"	d
+XXX_XXXX	.\FONT_MACRO.H	252;"	d
+XXX_XXX_	.\FONT_MACRO.H	251;"	d
+XXX_XX_X	.\FONT_MACRO.H	250;"	d
+XXX_XX__	.\FONT_MACRO.H	249;"	d
+XXX_X_XX	.\FONT_MACRO.H	248;"	d
+XXX_X_X_	.\FONT_MACRO.H	247;"	d
+XXX_X__X	.\FONT_MACRO.H	246;"	d
+XXX_X___	.\FONT_MACRO.H	245;"	d
+XXX__XXX	.\FONT_MACRO.H	244;"	d
+XXX__XX_	.\FONT_MACRO.H	243;"	d
+XXX__X_X	.\FONT_MACRO.H	242;"	d
+XXX__X__	.\FONT_MACRO.H	241;"	d
+XXX___XX	.\FONT_MACRO.H	240;"	d
+XXX___X_	.\FONT_MACRO.H	239;"	d
+XXX____X	.\FONT_MACRO.H	238;"	d
+XXX_____	.\FONT_MACRO.H	237;"	d
+XX_XXXXX	.\FONT_MACRO.H	236;"	d
+XX_XXXX_	.\FONT_MACRO.H	235;"	d
+XX_XXX_X	.\FONT_MACRO.H	234;"	d
+XX_XXX__	.\FONT_MACRO.H	233;"	d
+XX_XX_XX	.\FONT_MACRO.H	232;"	d
+XX_XX_X_	.\FONT_MACRO.H	231;"	d
+XX_XX__X	.\FONT_MACRO.H	230;"	d
+XX_XX___	.\FONT_MACRO.H	229;"	d
+XX_X_XXX	.\FONT_MACRO.H	228;"	d
+XX_X_XX_	.\FONT_MACRO.H	227;"	d
+XX_X_X_X	.\FONT_MACRO.H	226;"	d
+XX_X_X__	.\FONT_MACRO.H	225;"	d
+XX_X__XX	.\FONT_MACRO.H	224;"	d
+XX_X__X_	.\FONT_MACRO.H	223;"	d
+XX_X___X	.\FONT_MACRO.H	222;"	d
+XX_X____	.\FONT_MACRO.H	221;"	d
+XX__XXXX	.\FONT_MACRO.H	220;"	d
+XX__XXX_	.\FONT_MACRO.H	219;"	d
+XX__XX_X	.\FONT_MACRO.H	218;"	d
+XX__XX__	.\FONT_MACRO.H	217;"	d
+XX__X_XX	.\FONT_MACRO.H	216;"	d
+XX__X_X_	.\FONT_MACRO.H	215;"	d
+XX__X__X	.\FONT_MACRO.H	214;"	d
+XX__X___	.\FONT_MACRO.H	213;"	d
+XX___XXX	.\FONT_MACRO.H	212;"	d
+XX___XX_	.\FONT_MACRO.H	211;"	d
+XX___X_X	.\FONT_MACRO.H	210;"	d
+XX___X__	.\FONT_MACRO.H	209;"	d
+XX____XX	.\FONT_MACRO.H	208;"	d
+XX____X_	.\FONT_MACRO.H	207;"	d
+XX_____X	.\FONT_MACRO.H	206;"	d
+XX______	.\FONT_MACRO.H	205;"	d
+X_XXXXXX	.\FONT_MACRO.H	204;"	d
+X_XXXXX_	.\FONT_MACRO.H	203;"	d
+X_XXXX_X	.\FONT_MACRO.H	202;"	d
+X_XXXX__	.\FONT_MACRO.H	201;"	d
+X_XXX_XX	.\FONT_MACRO.H	200;"	d
+X_XXX_X_	.\FONT_MACRO.H	199;"	d
+X_XXX__X	.\FONT_MACRO.H	198;"	d
+X_XXX___	.\FONT_MACRO.H	197;"	d
+X_XX_XXX	.\FONT_MACRO.H	196;"	d
+X_XX_XX_	.\FONT_MACRO.H	195;"	d
+X_XX_X_X	.\FONT_MACRO.H	194;"	d
+X_XX_X__	.\FONT_MACRO.H	193;"	d
+X_XX__XX	.\FONT_MACRO.H	192;"	d
+X_XX__X_	.\FONT_MACRO.H	191;"	d
+X_XX___X	.\FONT_MACRO.H	190;"	d
+X_XX____	.\FONT_MACRO.H	189;"	d
+X_X_XXXX	.\FONT_MACRO.H	188;"	d
+X_X_XXX_	.\FONT_MACRO.H	187;"	d
+X_X_XX_X	.\FONT_MACRO.H	186;"	d
+X_X_XX__	.\FONT_MACRO.H	185;"	d
+X_X_X_XX	.\FONT_MACRO.H	184;"	d
+X_X_X_X_	.\FONT_MACRO.H	183;"	d
+X_X_X__X	.\FONT_MACRO.H	182;"	d
+X_X_X___	.\FONT_MACRO.H	181;"	d
+X_X__XXX	.\FONT_MACRO.H	180;"	d
+X_X__XX_	.\FONT_MACRO.H	179;"	d
+X_X__X_X	.\FONT_MACRO.H	178;"	d
+X_X__X__	.\FONT_MACRO.H	177;"	d
+X_X___XX	.\FONT_MACRO.H	176;"	d
+X_X___X_	.\FONT_MACRO.H	175;"	d
+X_X____X	.\FONT_MACRO.H	174;"	d
+X_X_____	.\FONT_MACRO.H	173;"	d
+X__XXXXX	.\FONT_MACRO.H	172;"	d
+X__XXXX_	.\FONT_MACRO.H	171;"	d
+X__XXX_X	.\FONT_MACRO.H	170;"	d
+X__XXX__	.\FONT_MACRO.H	169;"	d
+X__XX_XX	.\FONT_MACRO.H	168;"	d
+X__XX_X_	.\FONT_MACRO.H	167;"	d
+X__XX__X	.\FONT_MACRO.H	166;"	d
+X__XX___	.\FONT_MACRO.H	165;"	d
+X__X_XXX	.\FONT_MACRO.H	164;"	d
+X__X_XX_	.\FONT_MACRO.H	163;"	d
+X__X_X_X	.\FONT_MACRO.H	162;"	d
+X__X_X__	.\FONT_MACRO.H	161;"	d
+X__X__XX	.\FONT_MACRO.H	160;"	d
+X__X__X_	.\FONT_MACRO.H	159;"	d
+X__X___X	.\FONT_MACRO.H	158;"	d
+X__X____	.\FONT_MACRO.H	157;"	d
+X___XXXX	.\FONT_MACRO.H	156;"	d
+X___XXX_	.\FONT_MACRO.H	155;"	d
+X___XX_X	.\FONT_MACRO.H	154;"	d
+X___XX__	.\FONT_MACRO.H	153;"	d
+X___X_XX	.\FONT_MACRO.H	152;"	d
+X___X_X_	.\FONT_MACRO.H	151;"	d
+X___X__X	.\FONT_MACRO.H	150;"	d
+X___X___	.\FONT_MACRO.H	149;"	d
+X____XXX	.\FONT_MACRO.H	148;"	d
+X____XX_	.\FONT_MACRO.H	147;"	d
+X____X_X	.\FONT_MACRO.H	146;"	d
+X____X__	.\FONT_MACRO.H	145;"	d
+X_____XX	.\FONT_MACRO.H	144;"	d
+X_____X_	.\FONT_MACRO.H	143;"	d
+X______X	.\FONT_MACRO.H	142;"	d
+X_______	.\FONT_MACRO.H	141;"	d
+_KBD_Listen_Back	.\gui_keyboard.c	/^uint8_t _KBD_Listen_Back (void)$/;"	f	signature:(void)
+_KBD_Listen_Down	.\gui_kbd.c	/^u8 _KBD_Listen_Down (void)$/;"	f	signature:(void)
+_KBD_Listen_Down	.\gui_keyboard.c	/^uint8_t _KBD_Listen_Down (void)$/;"	f	signature:(void)
+_KBD_Listen_Enter	.\gui_kbd.c	/^u8 _KBD_Listen_Enter (void)$/;"	f	signature:(void)
+_KBD_Listen_Enter	.\gui_keyboard.c	/^uint8_t _KBD_Listen_Enter (void)$/;"	f	signature:(void)
+_KBD_Listen_Sysset	.\gui_keyboard.c	/^uint8_t _KBD_Listen_Sysset (void)$/;"	f	signature:(void)
+_KBD_Listen_Up	.\gui_kbd.c	/^u8 _KBD_Listen_Up (void)$/;"	f	signature:(void)
+_XXXXXXX	.\FONT_MACRO.H	140;"	d
+_XXXXXX_	.\FONT_MACRO.H	139;"	d
+_XXXXX_X	.\FONT_MACRO.H	138;"	d
+_XXXXX__	.\FONT_MACRO.H	137;"	d
+_XXXX_XX	.\FONT_MACRO.H	136;"	d
+_XXXX_X_	.\FONT_MACRO.H	135;"	d
+_XXXX__X	.\FONT_MACRO.H	134;"	d
+_XXXX___	.\FONT_MACRO.H	133;"	d
+_XXX_XXX	.\FONT_MACRO.H	132;"	d
+_XXX_XX_	.\FONT_MACRO.H	131;"	d
+_XXX_X_X	.\FONT_MACRO.H	130;"	d
+_XXX_X__	.\FONT_MACRO.H	129;"	d
+_XXX__XX	.\FONT_MACRO.H	128;"	d
+_XXX__X_	.\FONT_MACRO.H	127;"	d
+_XXX___X	.\FONT_MACRO.H	126;"	d
+_XXX____	.\FONT_MACRO.H	125;"	d
+_XX_XXXX	.\FONT_MACRO.H	124;"	d
+_XX_XXX_	.\FONT_MACRO.H	123;"	d
+_XX_XX_X	.\FONT_MACRO.H	122;"	d
+_XX_XX__	.\FONT_MACRO.H	121;"	d
+_XX_X_XX	.\FONT_MACRO.H	120;"	d
+_XX_X_X_	.\FONT_MACRO.H	119;"	d
+_XX_X__X	.\FONT_MACRO.H	118;"	d
+_XX_X___	.\FONT_MACRO.H	117;"	d
+_XX__XXX	.\FONT_MACRO.H	116;"	d
+_XX__XX_	.\FONT_MACRO.H	115;"	d
+_XX__X_X	.\FONT_MACRO.H	114;"	d
+_XX__X__	.\FONT_MACRO.H	113;"	d
+_XX___XX	.\FONT_MACRO.H	112;"	d
+_XX___X_	.\FONT_MACRO.H	111;"	d
+_XX____X	.\FONT_MACRO.H	110;"	d
+_XX_____	.\FONT_MACRO.H	109;"	d
+_X_XXXXX	.\FONT_MACRO.H	108;"	d
+_X_XXXX_	.\FONT_MACRO.H	107;"	d
+_X_XXX_X	.\FONT_MACRO.H	106;"	d
+_X_XXX__	.\FONT_MACRO.H	105;"	d
+_X_XX_XX	.\FONT_MACRO.H	104;"	d
+_X_XX_X_	.\FONT_MACRO.H	103;"	d
+_X_XX__X	.\FONT_MACRO.H	102;"	d
+_X_XX___	.\FONT_MACRO.H	101;"	d
+_X_X_XXX	.\FONT_MACRO.H	100;"	d
+_X_X_XX_	.\FONT_MACRO.H	99;"	d
+_X_X_X_X	.\FONT_MACRO.H	98;"	d
+_X_X_X__	.\FONT_MACRO.H	97;"	d
+_X_X__XX	.\FONT_MACRO.H	96;"	d
+_X_X__X_	.\FONT_MACRO.H	95;"	d
+_X_X___X	.\FONT_MACRO.H	94;"	d
+_X_X____	.\FONT_MACRO.H	93;"	d
+_X__XXXX	.\FONT_MACRO.H	92;"	d
+_X__XXX_	.\FONT_MACRO.H	91;"	d
+_X__XX_X	.\FONT_MACRO.H	90;"	d
+_X__XX__	.\FONT_MACRO.H	89;"	d
+_X__X_XX	.\FONT_MACRO.H	88;"	d
+_X__X_X_	.\FONT_MACRO.H	87;"	d
+_X__X__X	.\FONT_MACRO.H	86;"	d
+_X__X___	.\FONT_MACRO.H	85;"	d
+_X___XXX	.\FONT_MACRO.H	84;"	d
+_X___XX_	.\FONT_MACRO.H	83;"	d
+_X___X_X	.\FONT_MACRO.H	82;"	d
+_X___X__	.\FONT_MACRO.H	81;"	d
+_X____XX	.\FONT_MACRO.H	80;"	d
+_X____X_	.\FONT_MACRO.H	79;"	d
+_X_____X	.\FONT_MACRO.H	78;"	d
+_X______	.\FONT_MACRO.H	77;"	d
+__ASC16_H	.\asc16.h	4;"	d
+__ASC24_H	.\asc24.h	3;"	d
+__ASC32_H	.\asc32.h	4;"	d
+__CONFIG_H	.\config.h	11;"	d
+__GUI_FONT_H	.\gui_font.h	3;"	d
+__GUI_KBD_H	.\gui_kbd.h	11;"	d
+__GUI_KEYBOARD_H	.\gui_keyboard.h	11;"	d
+__HZK16_H	.\hzk16.h	3;"	d
+__HZK24_H	.\hzk24.h	3;"	d
+__HZK32_H	.\hzk32.h	4;"	d
+__LCDDRIVE_H	.\LCDDRIVE.H	11;"	d
+__MACRO_H	.\macro.h	11;"	d
+__WIDGET_H	.\widget.h	11;"	d
+__XXXXXX	.\FONT_MACRO.H	76;"	d
+__XXXXX_	.\FONT_MACRO.H	75;"	d
+__XXXX_X	.\FONT_MACRO.H	74;"	d
+__XXXX__	.\FONT_MACRO.H	73;"	d
+__XXX_XX	.\FONT_MACRO.H	72;"	d
+__XXX_X_	.\FONT_MACRO.H	71;"	d
+__XXX__X	.\FONT_MACRO.H	70;"	d
+__XXX___	.\FONT_MACRO.H	69;"	d
+__XX_XXX	.\FONT_MACRO.H	68;"	d
+__XX_XX_	.\FONT_MACRO.H	67;"	d
+__XX_X_X	.\FONT_MACRO.H	66;"	d
+__XX_X__	.\FONT_MACRO.H	65;"	d
+__XX__XX	.\FONT_MACRO.H	64;"	d
+__XX__X_	.\FONT_MACRO.H	63;"	d
+__XX___X	.\FONT_MACRO.H	62;"	d
+__XX____	.\FONT_MACRO.H	61;"	d
+__X_XXXX	.\FONT_MACRO.H	60;"	d
+__X_XXX_	.\FONT_MACRO.H	59;"	d
+__X_XX_X	.\FONT_MACRO.H	58;"	d
+__X_XX__	.\FONT_MACRO.H	57;"	d
+__X_X_XX	.\FONT_MACRO.H	56;"	d
+__X_X_X_	.\FONT_MACRO.H	55;"	d
+__X_X__X	.\FONT_MACRO.H	54;"	d
+__X_X___	.\FONT_MACRO.H	53;"	d
+__X__XXX	.\FONT_MACRO.H	52;"	d
+__X__XX_	.\FONT_MACRO.H	51;"	d
+__X__X_X	.\FONT_MACRO.H	50;"	d
+__X__X__	.\FONT_MACRO.H	49;"	d
+__X___XX	.\FONT_MACRO.H	48;"	d
+__X___X_	.\FONT_MACRO.H	47;"	d
+__X____X	.\FONT_MACRO.H	46;"	d
+__X_____	.\FONT_MACRO.H	45;"	d
+___XXXXX	.\FONT_MACRO.H	44;"	d
+___XXXX_	.\FONT_MACRO.H	43;"	d
+___XXX_X	.\FONT_MACRO.H	42;"	d
+___XXX__	.\FONT_MACRO.H	41;"	d
+___XX_XX	.\FONT_MACRO.H	40;"	d
+___XX_X_	.\FONT_MACRO.H	39;"	d
+___XX__X	.\FONT_MACRO.H	38;"	d
+___XX___	.\FONT_MACRO.H	37;"	d
+___X_XXX	.\FONT_MACRO.H	36;"	d
+___X_XX_	.\FONT_MACRO.H	35;"	d
+___X_X_X	.\FONT_MACRO.H	34;"	d
+___X_X__	.\FONT_MACRO.H	33;"	d
+___X__XX	.\FONT_MACRO.H	32;"	d
+___X__X_	.\FONT_MACRO.H	31;"	d
+___X___X	.\FONT_MACRO.H	30;"	d
+___X____	.\FONT_MACRO.H	29;"	d
+____XXXX	.\FONT_MACRO.H	28;"	d
+____XXX_	.\FONT_MACRO.H	27;"	d
+____XX_X	.\FONT_MACRO.H	26;"	d
+____XX__	.\FONT_MACRO.H	25;"	d
+____X_XX	.\FONT_MACRO.H	24;"	d
+____X_X_	.\FONT_MACRO.H	23;"	d
+____X__X	.\FONT_MACRO.H	22;"	d
+____X___	.\FONT_MACRO.H	21;"	d
+_____XXX	.\FONT_MACRO.H	20;"	d
+_____XX_	.\FONT_MACRO.H	19;"	d
+_____X_X	.\FONT_MACRO.H	18;"	d
+_____X__	.\FONT_MACRO.H	17;"	d
+______XX	.\FONT_MACRO.H	16;"	d
+______X_	.\FONT_MACRO.H	15;"	d
+_______X	.\FONT_MACRO.H	14;"	d
+________	.\FONT_MACRO.H	13;"	d
+__anon10::Ax	.\spline.c	/^{  float  	Ax, Ay;			\/\/ ∂®“ÂA°¢B°¢Cµ„◊¯±Í±‰¡ø$/;"	m	struct:__anon10	file:	access:public
+__anon10::Ay	.\spline.c	/^{  float  	Ax, Ay;			\/\/ ∂®“ÂA°¢B°¢Cµ„◊¯±Í±‰¡ø$/;"	m	struct:__anon10	file:	access:public
+__anon10::Bx	.\spline.c	/^   float  	Bx, By;$/;"	m	struct:__anon10	file:	access:public
+__anon10::By	.\spline.c	/^   float  	Bx, By;$/;"	m	struct:__anon10	file:	access:public
+__anon10::Cx	.\spline.c	/^   float  	Cx, Cy;$/;"	m	struct:__anon10	file:	access:public
+__anon10::Cy	.\spline.c	/^   float  	Cx, Cy;$/;"	m	struct:__anon10	file:	access:public
+__anon10::Ndiv	.\spline.c	/^   int    	Ndiv;			\/\/ ∂®“Â«˙œﬂ∆Ωª¨≤Œ ˝±‰¡ø     $/;"	m	struct:__anon10	file:	access:public
+__anon11::Ax	.\SPLINE.H	/^   float	Ax[NPMAX];		\/\/ ∂®“Â÷∏œÚA°¢B°¢C»˝µ„µƒ÷∏’Î$/;"	m	struct:__anon11	access:public
+__anon11::Ay	.\SPLINE.H	/^   float	Ay[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::Bx	.\SPLINE.H	/^   float	Bx[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::By	.\SPLINE.H	/^   float	By[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::Cx	.\SPLINE.H	/^   float	Cx[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::Cy	.\SPLINE.H	/^   float	Cy[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::Mat	.\SPLINE.H	/^   float	Mat[3][NPMAX];$/;"	m	struct:__anon11	access:public
+__anon11::Np	.\SPLINE.H	/^   int  	Np; 			\/\/ «˙œﬂµ„∏ˆ ˝$/;"	m	struct:__anon11	access:public
+__anon11::Px	.\SPLINE.H	/^{  float	Px[NPMAX];			$/;"	m	struct:__anon11	access:public
+__anon11::Py	.\SPLINE.H	/^   float	Py[NPMAX];$/;"	m	struct:__anon11	access:public
+__anon12::hight	.\WINDOWS.H	/^   uint32_t  hight;			\/\/ ¥∞ø⁄∏ﬂ∂»$/;"	m	struct:__anon12	access:public
+__anon12::state	.\WINDOWS.H	/^   uint8_t   *state;		\/\/ ∂®“Â◊¥Ã¨¿∏÷∏’Î (»ÙŒ™ø’ ±‘Ú≤ªœ‘ æ◊¥Ã¨¿∏)$/;"	m	struct:__anon12	access:public
+__anon12::title	.\WINDOWS.H	/^   uint8_t   *title;		\/\/ ∂®“Â±ÍÃ‚¿∏÷∏’Î (±ÍÃ‚◊÷∑˚Œ™ASCII◊÷∑˚¥Æ£¨◊Ó¥Û∏ˆ ˝ ‹¥∞ø⁄œﬁ÷∆)$/;"	m	struct:__anon12	access:public
+__anon12::with	.\WINDOWS.H	/^   uint32_t  with;			\/\/ ¥∞ø⁄øÌ∂»$/;"	m	struct:__anon12	access:public
+__anon12::x	.\WINDOWS.H	/^{  uint32_t  x;				\/\/ ¥∞ø⁄Œª÷√(◊Û…œΩ«µƒx◊¯±Í)$/;"	m	struct:__anon12	access:public
+__anon12::y	.\WINDOWS.H	/^   uint32_t  y;				\/\/ ¥∞ø⁄Œª÷√(◊Û…œΩ«µƒy◊¯±Í)$/;"	m	struct:__anon12	access:public
+__anon13::disp	.\WINDOWS.H	/^	TCOLOR disp;		\/\/¥∞ÃÂœ‘ æ—’…´$/;"	m	struct:__anon13	access:public
+__anon13::hight	.\WINDOWS.H	/^	uint32_t hight;$/;"	m	struct:__anon13	access:public
+__anon13::point	.\WINDOWS.H	/^	PointXY point;$/;"	m	struct:__anon13	access:public
+__anon13::stat	.\WINDOWS.H	/^	uint32_t stat;$/;"	m	struct:__anon13	access:public
+__anon13::with	.\WINDOWS.H	/^	uint32_t with;$/;"	m	struct:__anon13	access:public
+__anon1::x	.\gui_basic.h	/^         {  int16_t  x;				\/\/ x◊¯±Í±‰¡ø$/;"	m	struct:__anon1	access:public
+__anon1::y	.\gui_basic.h	/^            int16_t  y;				\/\/ y◊¯±Í±‰¡ø$/;"	m	struct:__anon1	access:public
+__anon4::ascfontsize	.\gui_font.h	/^	uint32_t ascfontsize[FONT_ASC_COUNTER];		\/\/◊÷ƒ£¥Û–°$/;"	m	struct:__anon4	access:public
+__anon4::asctype	.\gui_font.h	/^	FONT_ASC_TYPE asctype;$/;"	m	struct:__anon4	access:public
+__anon4::fontdata	.\gui_font.h	/^	const uint8_t *fontdata;					\/\/◊÷ƒ£ ˝æ›À˜“˝{∏˘æ›øÌ∫Õ∏ﬂΩ¯––¥Úµ„}$/;"	m	struct:__anon4	access:public
+__anon4::hzkfontsize	.\gui_font.h	/^	uint32_t hzkfontsize[FONT_HZK_COUNTER];		\/\/◊÷ƒ£¥Û–°$/;"	m	struct:__anon4	access:public
+__anon4::hzktype	.\gui_font.h	/^	FONT_HZK_TYPE hzktype;$/;"	m	struct:__anon4	access:public
+__anon4::size	.\gui_font.h	/^	uint16_t size;								\/\/“ª∏ˆ◊÷µƒ◊÷Ω⁄ ˝$/;"	m	struct:__anon4	access:public
+__anon4::width_hight	.\gui_font.h	/^	uint16_t width_hight[2];					\/\/◊÷øÌ∫Õ∏ﬂ∫Õ$/;"	m	struct:__anon4	access:public
+__anon6::msg	.\gui_kbd.h	/^	volatile u32 msg;$/;"	m	struct:__anon6	access:public
+__anon6::msg_u	.\gui_kbd.h	/^	volatile u32 msg_u;$/;"	m	struct:__anon6	access:public
+__anon7::Function	.\menu.h	/^   void (*Function[SMENU_NO])(void);		\/\/ ◊”≤Àµ•∂‘”¶µƒ∑˛ŒÒ≥Ã–Ú$/;"	m	struct:__anon7	access:public
+__anon7::mmenu_no	.\menu.h	/^   uint8_t    mmenu_no;							\/\/ ∂‘”¶µƒ÷˜≤Àµ•œÓ∫≈(0-n)   $/;"	m	struct:__anon7	access:public
+__anon7::no	.\menu.h	/^   uint8_t    no;										\/\/ ◊”≤Àµ•œÓ∏ˆ ˝$/;"	m	struct:__anon7	access:public
+__anon7::state	.\menu.h	/^   uint8_t    state;  								\/\/ À˘—°‘Òµƒ◊”≤Àµ•   $/;"	m	struct:__anon7	access:public
+__anon7::str	.\menu.h	/^   char     *str[SMENU_NO];			\/\/ ◊”≤Àµ•◊÷∑˚¥Æ$/;"	m	struct:__anon7	access:public
+__anon7::win	.\menu.h	/^{  WINDOWS  *win;								\/\/ À˘ Ù¥∞ø⁄$/;"	m	struct:__anon7	access:public
+__anon8::no	.\menu.h	/^   uint8_t no;											\/\/ ÷˜≤Àµ•∏ˆ ˝$/;"	m	struct:__anon8	access:public
+__anon8::str	.\menu.h	/^   char *str[MMENU_NO];				\/\/ ÷˜≤Àµ•◊÷∑˚¥Æ$/;"	m	struct:__anon8	access:public
+__anon8::win	.\menu.h	/^{  WINDOWS *win;							\/\/ À˘ Ù¥∞ø⁄$/;"	m	struct:__anon8	access:public
+__anon9::Function	.\menu.h	/^   void   (*Function)(void);	\/\/ ∂‘”¶µƒ∑˛ŒÒ≥Ã–Ú$/;"	m	struct:__anon9	access:public
+__anon9::icodat	.\menu.h	/^   uint8_t  *icodat;		\/\/ 32*32µƒICO ˝æ›µÿ÷∑$/;"	m	struct:__anon9	access:public
+__anon9::state	.\menu.h	/^   uint8_t  state;  		\/\/ Õº±Í≤Àµ•◊¥Ã¨£¨Œ™0 ±±Ì æŒ¥—°÷–£¨Œ™1 ±±Ì æ“——°÷–$/;"	m	struct:__anon9	access:public
+__anon9::title	.\menu.h	/^   uint8_t  *title;       \/\/ œ‡πÿ±ÍÃ‚Ã· æ (42*13)$/;"	m	struct:__anon9	access:public
+__anon9::x	.\menu.h	/^{  uint32_t x;			\/\/ Õº±Í≤Àµ•Œª÷√(◊Û…œΩ«µƒx◊¯±Í)$/;"	m	struct:__anon9	access:public
+__anon9::y	.\menu.h	/^   uint32_t y;			\/\/ Õº±Í≤Àµ•Œª÷√(◊Û…œΩ«µƒy◊¯±Í) $/;"	m	struct:__anon9	access:public
+abs	.\spline.c	/^int  abs(int a)$/;"	f	signature:(int a)
+asc16	.\asc16.c	/^const unsigned char asc16[] =$/;"	v
+asc24	.\asc24.c	/^const unsigned char asc24[] =$/;"	v
+asc32	.\asc32.c	/^const unsigned char asc32[] =$/;"	v
+ascfontsize	.\gui_font.h	/^	uint32_t ascfontsize[FONT_ASC_COUNTER];		\/\/◊÷ƒ£¥Û–°$/;"	m	struct:__anon4	access:public
+asctype	.\gui_font.h	/^	FONT_ASC_TYPE asctype;$/;"	m	struct:__anon4	access:public
+asctype	.\menu.h	/^	FONT_ASC_TYPE asctype;$/;"	m	struct:MENU_STRUCT	access:public
+back	.\menu.h	/^	TCOLOR back;$/;"	m	struct:MENU_STRUCT	access:public
+back_color	.\GUI_StockC.C	/^TCOLOR	back_color;$/;"	v
+button_cancle	.\menu.c	/^uint8_t  const  button_cancle[] =$/;"	v
+button_cancle1	.\menu.c	/^uint8_t  const  button_cancle1[] =$/;"	v
+button_ok	.\menu.c	/^uint8_t  const  button_ok[] = $/;"	v
+button_ok1	.\menu.c	/^uint8_t  const  button_ok1[] = $/;"	v
+cur_menu	.\widget.h	/^	MENU *cur_menu;		\/\/ÊåáÂêëÂΩìÂâçËèúÂçï$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+cur_wm	.\widget.c	/^WIDGET_MNG *cur_wm=&wm[0];$/;"	v
+disp	.\WINDOWS.H	/^	TCOLOR disp;		\/\/¥∞ÃÂœ‘ æ—’…´$/;"	m	struct:__anon13	access:public
+disp	.\menu.h	/^	TCOLOR disp;$/;"	m	struct:MENU_STRUCT	access:public
+disp_color	.\GUI_StockC.C	/^TCOLOR  disp_color;$/;"	v
+fontdata	.\gui_font.h	/^	const uint8_t *fontdata;					\/\/◊÷ƒ£ ˝æ›À˜“˝{∏˘æ›øÌ∫Õ∏ﬂΩ¯––¥Úµ„}$/;"	m	struct:__anon4	access:public
+head	.\widget.h	/^	WIDGET *head;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+hight	.\WINDOWS.H	/^	uint32_t hight;$/;"	m	struct:__anon13	access:public
+hight	.\WINDOWS.H	/^   uint32_t  hight;			\/\/ ¥∞ø⁄∏ﬂ∂»$/;"	m	struct:__anon12	access:public
+hzk16	.\hzk16.c	/^const unsigned char hzk16[] =$/;"	v
+hzk24	.\hzk24.c	/^const unsigned char hzk24[] =$/;"	v
+hzk32	.\hzk32.c	/^const unsigned char hzk32[] =$/;"	v
+hzkfontsize	.\gui_font.h	/^	uint32_t hzkfontsize[FONT_HZK_COUNTER];		\/\/◊÷ƒ£¥Û–°$/;"	m	struct:__anon4	access:public
+hzktype	.\gui_font.h	/^	FONT_HZK_TYPE hzktype;$/;"	m	struct:__anon4	access:public
+hzktype	.\menu.h	/^	FONT_HZK_TYPE hzktype;$/;"	m	struct:MENU_STRUCT	access:public
+icodat	.\menu.h	/^   uint8_t  *icodat;		\/\/ 32*32µƒICO ˝æ›µÿ÷∑$/;"	m	struct:__anon9	access:public
+max	.\spline.c	/^int  max(int a, int b)$/;"	f	signature:(int a, int b)
+menu	.\widget.h	/^	const MENU *menu;\/\/Á™óÂè£ÁöÑËèúÂçï$/;"	m	struct:WIDGET_STRUCT	access:public
+mmenu_no	.\menu.h	/^   uint8_t    mmenu_no;							\/\/ ∂‘”¶µƒ÷˜≤Àµ•œÓ∫≈(0-n)   $/;"	m	struct:__anon7	access:public
+msg	.\gui_kbd.h	/^	volatile u32 msg;$/;"	m	struct:__anon6	access:public
+msg_u	.\gui_kbd.h	/^	volatile u32 msg_u;$/;"	m	struct:__anon6	access:public
+next	.\menu.h	/^	const struct MENU_STRUCT *next;\/\/÷∏œÚœ¬“ª∏ˆ≤Àµ•£¨±ÿ–Î «“ª∏ˆ—≠ª∑$/;"	m	struct:MENU_STRUCT	typeref:struct:MENU_STRUCT::MENU_STRUCT	access:public
+next	.\widget.h	/^	WIDGET *next;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+no	.\menu.h	/^   uint8_t    no;										\/\/ ◊”≤Àµ•œÓ∏ˆ ˝$/;"	m	struct:__anon7	access:public
+no	.\menu.h	/^   uint8_t no;											\/\/ ÷˜≤Àµ•∏ˆ ˝$/;"	m	struct:__anon8	access:public
+point	.\WINDOWS.H	/^	PointXY point;$/;"	m	struct:__anon13	access:public
+service	.\menu.h	/^	FunctionAction service;$/;"	m	struct:MENU_STRUCT	access:public
+size	.\gui_font.h	/^	uint16_t size;								\/\/“ª∏ˆ◊÷µƒ◊÷Ω⁄ ˝$/;"	m	struct:__anon4	access:public
+stat	.\WINDOWS.H	/^	uint32_t stat;$/;"	m	struct:__anon13	access:public
+stat	.\menu.h	/^	uint32_t stat;$/;"	m	struct:MENU_STRUCT	access:public
+state	.\WINDOWS.H	/^   uint8_t   *state;		\/\/ ∂®“Â◊¥Ã¨¿∏÷∏’Î (»ÙŒ™ø’ ±‘Ú≤ªœ‘ æ◊¥Ã¨¿∏)$/;"	m	struct:__anon12	access:public
+state	.\menu.h	/^   uint8_t    state;  								\/\/ À˘—°‘Òµƒ◊”≤Àµ•   $/;"	m	struct:__anon7	access:public
+state	.\menu.h	/^   uint8_t  state;  		\/\/ Õº±Í≤Àµ•◊¥Ã¨£¨Œ™0 ±±Ì æŒ¥—°÷–£¨Œ™1 ±±Ì æ“——°÷–$/;"	m	struct:__anon9	access:public
+str	.\menu.h	/^   char     *str[SMENU_NO];			\/\/ ◊”≤Àµ•◊÷∑˚¥Æ$/;"	m	struct:__anon7	access:public
+str	.\menu.h	/^   char *str[MMENU_NO];				\/\/ ÷˜≤Àµ•◊÷∑˚¥Æ$/;"	m	struct:__anon8	access:public
+title	.\WINDOWS.H	/^   uint8_t   *title;		\/\/ ∂®“Â±ÍÃ‚¿∏÷∏’Î (±ÍÃ‚◊÷∑˚Œ™ASCII◊÷∑˚¥Æ£¨◊Ó¥Û∏ˆ ˝ ‹¥∞ø⁄œﬁ÷∆)$/;"	m	struct:__anon12	access:public
+title	.\menu.h	/^	char *title;$/;"	m	struct:MENU_STRUCT	access:public
+title	.\menu.h	/^   uint8_t  *title;       \/\/ œ‡πÿ±ÍÃ‚Ã· æ (42*13)$/;"	m	struct:__anon9	access:public
+title_xy	.\menu.h	/^	PointXY title_xy;$/;"	m	struct:MENU_STRUCT	access:public
+vk_msg	.\gui_keyboard.c	/^volatile uint8_t vk_msg;$/;"	v
+widget	.\widget.h	/^	WIDGET *widget;$/;"	m	struct:WIDGETMNG_STRUCT	access:public
+width_hight	.\gui_font.h	/^	uint16_t width_hight[2];					\/\/◊÷øÌ∫Õ∏ﬂ∫Õ$/;"	m	struct:__anon4	access:public
+win	.\menu.h	/^{  WINDOWS  *win;								\/\/ À˘ Ù¥∞ø⁄$/;"	m	struct:__anon7	access:public
+win	.\menu.h	/^{  WINDOWS *win;							\/\/ À˘ Ù¥∞ø⁄$/;"	m	struct:__anon8	access:public
+win	.\widget.h	/^	WINDOW win;\/\/Á™óÂè£Â±ûÊÄß,Â§ßÂ∞è,‰ΩçÁΩÆ$/;"	m	struct:WIDGET_STRUCT	access:public
+with	.\WINDOWS.H	/^	uint32_t with;$/;"	m	struct:__anon13	access:public
+with	.\WINDOWS.H	/^   uint32_t  with;			\/\/ ¥∞ø⁄øÌ∂»$/;"	m	struct:__anon12	access:public
+wm	.\widget.c	/^WIDGET_MNG wm[WIDGET_MAX];$/;"	v
+x	.\WINDOWS.H	/^{  uint32_t  x;				\/\/ ¥∞ø⁄Œª÷√(◊Û…œΩ«µƒx◊¯±Í)$/;"	m	struct:__anon12	access:public
+x	.\gui_basic.h	/^         {  int16_t  x;				\/\/ x◊¯±Í±‰¡ø$/;"	m	struct:__anon1	access:public
+x	.\menu.h	/^{  uint32_t x;			\/\/ Õº±Í≤Àµ•Œª÷√(◊Û…œΩ«µƒx◊¯±Í)$/;"	m	struct:__anon9	access:public
+y	.\WINDOWS.H	/^   uint32_t  y;				\/\/ ¥∞ø⁄Œª÷√(◊Û…œΩ«µƒy◊¯±Í)$/;"	m	struct:__anon12	access:public
+y	.\gui_basic.h	/^            int16_t  y;				\/\/ y◊¯±Í±‰¡ø$/;"	m	struct:__anon1	access:public
+y	.\menu.h	/^   uint32_t y;			\/\/ Õº±Í≤Àµ•Œª÷√(◊Û…œΩ«µƒy◊¯±Í) $/;"	m	struct:__anon9	access:public
